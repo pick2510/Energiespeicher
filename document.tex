@@ -1,7 +1,31 @@
 %%This is a very basic article template.
 %%There is just one section and two subsections.
-\documentclass{article}
+\RequirePackage[ngerman=ngerman-x-latest]{hyphsubst}
+%\documentclass[11pt,a4paper]{scrbook}
+\documentclass[11pt,a4paper]{scrartcl}
+%\documentclass[11pt,a4paper]{article}
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+%\renewcommand{\familydefault}{\sfdefault}
+\usepackage[a4paper]{geometry}
+%\geometry{verbose,tmargin=2.5cm,lmargin=2.5cm,rmargin=1.5cm,bmargin=3cm}
+\usepackage[ngerman,english]{babel}
+%\usepackage{ngerman}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{setspace}
+\usepackage[pdftex]{graphicx}
+\usepackage{epstopdf}
+\usepackage[final]{pdfpages}
+\usepackage{chngcntr}
+%\usepackage{hyperref}
+\usepackage{placeins}
 
+\setlength{\parindent}{0pt}
+\setlength{\headheight}{14pt}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
 \begin{document}
 
 
