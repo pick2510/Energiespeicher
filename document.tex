@@ -53,7 +53,7 @@ der Abbildung
 \begin{figure}[h]
 \begin{center}
 \includegraphics[scale=0.3]{images/speicher.jpg}
-\caption{Übersicht über die verschiedenen Wärmespeichertechnolgien \cite{BINE}}
+\caption{Übersicht über die verschiedenen Wärmespeichertechnolgien \cite{BINE1}}
 \label{fig:Wärmespeicher}
 \end{center}
 \end{figure}
@@ -188,6 +188,8 @@ der Gebäudetechnik. Die Speicher ermöglichena auch eine fast verlustfreie
 Möglichkeit thermische Energie zu speichern. Diese beiden Eigenschaften machen
 die Technologie für saisonale und kurzzeitliche Anwendungen interessant.
 
+\subsubsection{Kurzeitspeicher}
+
 In einem Pilotprojekt hat das Bayrische Zentrum für angewandte Energieforschung
 die technische Realisierung eines chemischen Speichers zum Lastenausgleich in
 einem Fernwärmenetz beweisen können. Der thermochemische Zeolithspeicher wurde
@@ -209,11 +211,40 @@ welche für einen Nachtbetrieb der Heizung geeignet ist.
 Untertags entalden wird der Speicher indem das Kondensat auf niedrigem
 Temperaturniveau wieder verdampft und diese Luft dann durch den Speicher
 geleitet wird. Der dabei ablaufende Adsorptionsprozess setzt Hochtemperaturwärme
-frei.In Abbildung xy ist das Prinzipschema der Anlage abgebildet.
+frei.In Abbildung \ref{fig:Laden} und \ref{fig:Entladen} ist das Prinzipschema
+der Anlage abgebildet.
 
-Experimentell konnte ein Aspeicherwirkungsgrad von 86\% nachgewiesen werden.
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[scale=1]{images/Laden.jpg}
+\caption{Laden des Zeolithspeichers \cite{BINE2}}
+\label{fig:Laden}
+\end{center}
+\end{figure}
 
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[scale=1]{images/Entladen.jpg}
+\caption{Entladen des Zeolithspeichers \cite{BINE2}}
+\label{fig:Entladen}
+\end{center}
+\end{figure}
+Experimentell konnte ein Speicherwirkungsgrad von 86\% nachgewiesen werden.
+Nachteilig erwiesen sich der hohe Preis von Zeolith der verhältnismässig hohe
+Inverstitionskosten verursachte. Eine Ammortisation bei einem Betrieb mit 100
+Zyklen pro Jahr scheint innert 10-15 Jahren möglich. Unter Laborbedingungen
+verliert das Zeolith nach 100 Ladezyklen 15\% der Adsoprtionsenthalpie.
+Anschliessend scheint die Adsorptionsfähigkeit des Stoffs stabil zu bleiben.
+Dies ist ebenfalls in der Wirtschaftlichkeitsberechnung zu berücksichtigen.
+\cite{BINE2}
 
+\subsubsection{Saisonaler Speicher}
+Saisonale thermochemische Speicher sind ebenfalls möglich. Das Fraunhofer-
+Institut für solare Energiesysteme zusammen mit UFE Solar GmbH eine
+Sorptionsspeicher für Niedrigenergiehäuser. Im Sommer word der Sorptionsspeicher
+mittels thermischer Solarkollektoren aufgeladen und im Winter das Haus über den
+Sorptionsspeicher mit thermischer Energie versorgt. Für Spitzenlastzeiten wurde
+eine Zusatzheizung eingebaut. Als Speichermaterial wird Silicagel wie aus den 
 \newpage
 \section{Ausblick}
 
@@ -222,12 +253,14 @@ Experimentell konnte ein Aspeicherwirkungsgrad von 86\% nachgewiesen werden.
 \listoffigures
 \newpage
 \begin{thebibliography}{99}
-	\bibitem{BINE}BINE Energieforschung für die Praxis. Abgerufen am 11.04.2014 von
-	http://www.bine.info/typo3temp/pics/b193b0972c.gif verändert durch D. Strebel
+	\bibitem{BINE1}BINE Energieforschung für die Praxis. Abgerufen am 11.04.2014
+	von http://www.bine.info/typo3temp/pics/b193b0972c.gif verändert durch D. Strebel
 	\bibitem{Wesselak}Wesselak et. al. Regenerative Energiesysteme. 2. Auflage.
 	Springer Vieweg Verlag Berlin. 2013
 	\bibitem{Hiebler} Hiebler S. Kalorimetrische Methoden zur Bestimmung der
 	Enthalpie von Latentwärmespeichermaterialien während des Phasenübergangs. Dissertation.
 	München. 2007
+	\bibitem{BINE2} BINE Energieforschung für die Praxis. projektinfo 2\/01
+	Thermochemische Speicher. 2001
 \end{thebibliography}
 \end{document}
