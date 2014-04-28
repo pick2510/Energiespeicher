@@ -12,6 +12,7 @@
 \usepackage[ngerman,english]{babel}
 %\usepackage{ngerman}
 \usepackage{amsmath}
+\usepackage{mhchem}
 \usepackage{textcomp}
 \usepackage{amsfonts}
 \usepackage{amssymb}
@@ -184,9 +185,9 @@ Langzeitsenisbelwärmespicher abgebildet. D
 \subsection{Chemische Speicher im Gebäudeenergieeinsatz}
 Da chemische Speicher die höchsten Energiedichten aller Speichertechnologien
 aufweisen sind diese insbesondere stossen diese insbesondere auf Interesse in
-der Gebäudetechnik. Die Speicher ermöglichena auch eine fast verlustfreie
+der Gebäudetechnik. Die Speicher ermöglichen auch eine fast verlustfreie
 Möglichkeit thermische Energie zu speichern. Diese beiden Eigenschaften machen
-die Technologie für saisonale und kurzzeitliche Anwendungen interessant.
+die Technologie für saisonale und kurzzeitige Anwendungen interessant.
 
 \subsubsection{Kurzeitspeicher}
 
@@ -196,7 +197,7 @@ einem Fernwärmenetz beweisen können. Der thermochemische Zeolithspeicher wurde
 erfolgreich im Heizsystem einer Münchner Schule integriert. In der Nacht bei
 geringer Last wird der Speicher aufgeladen und bei normaler Tageslast entladen.
 Untertags ist es mit diesem System möglich, eine komplette Abkopplung vom
-Fernwärmenetz vorzunehmen und nur über den chemsichen Speicher zu heizen. Der
+Fernwärmenetz vorzunehmen und nur über den chemischen Speicher zu heizen. Der
 Speicher ist so ausgelegt, dass er die Heizlast von 95kW über 14 Stunden liefern
 kann. Technisch gesehen besteht der Speicher aus drei Kammern die total 1700kg
 Zeolith 13X entahlten. Der Arbeitsbereich von Zeolith 13X ermöglicht ein Laden
@@ -209,7 +210,7 @@ Wasser auf und wird auf einem tieferen Temperaturniveau durch einen Kondensator
 geleitet. Dabei entsteht Kondensationswärme auf einem Niveau von 40\textdegree C
 welche für einen Nachtbetrieb der Heizung geeignet ist. 
 
-Untertags entalden wird der Speicher indem das Kondensat auf niedrigem
+Untertags entladen wird der Speicher indem das Kondensat auf niedrigem
 Temperaturniveau wieder verdampft und diese Luft dann durch den Speicher
 geleitet wird. Der dabei ablaufende Adsorptionsprozess setzt Hochtemperaturwärme
 frei.In Abbildung \ref{fig:Laden} und \ref{fig:Entladen} ist das Prinzipschema
@@ -273,6 +274,41 @@ in Evaluation. Insbesondere der tatsächlich erreichbare solare Deckungsgrad wä
 dabei von Interesse. Leider liessen sich im Internet keine aktualiserten
 Resultate zu diesem Projekt finden.
 \subsection{Latentspeicher}
+In diesem Kapitel werden zwei Anwendungen von Latentwärmespeichern bzw.
+bauteilen besprochen.
+\subsubsection{GLASSX}
+Die Zürcher Firma GLASSX stellt PCM Fassadenelemente her. 
+
+Kernprodukte sind
+GLASSX\circledR store, ein kombinierbares Innenelement für Gebäude mit
+Glassfassade und GLASSX\circledR crystal, ein Komplettfasadenelement mit
+Verschattung und Dämmung für Leichtbaugebäude. Die beiden Produkte besitzen eine
+ähnlichen Aufbau. Das PCM, Kalziumchloridhexahydrat (\ce{CaCl_2\cdot 6H_2O}),
+liegt zwischen zwei Gläsern in der Mitte des Elements. Der Schmelzpunkt von
+\ce{CaCl_2\cdot 6H_2O} liegt genau bei Raumtemperatur (Salzhydrat). Bei
+Erwärmung durch Sonneneinstrahlung schmilzt das \ce{CaCl_2\cdot 6H_2O} und
+entzieht so der Umgebung Wärme. Bei Abkühlung in der Nacht gestaltet sich der
+Prozess genau umgekehrt. \ce{CaCl_2\cdot 6H_2O} erstarrt und gibt Wärme an die
+Umgebung ab. Da diese Elemente als Fassade bzw. direkt hinter der GLasfassade
+eingesetzt werden, wird bicht nur Raumwärme sondern auch die Einstrahlungswärme
+der Sonne genutzt. Infrarotstrahlung wird durch das PCM fast komplett
+absorbiert, für sichtbares Licht ist das Material zum grössten Teil durchlässig.
+Als weitere Innovation hat das Unternehmen ein Prismengals entwickelt, dass die
+unterschiedlichen Einstrahlungswinkel während der Jahreszeiten als Selektion
+nutzt. Bei hohen Einstrahlungswinkeln wie sie im Sommer vorkommen wird über
+Totalreflexion der grösste Teil der Strahlung bereits im Prismenglas absorbiert.
+Im Winter bei niedrigeren Einstrahlungswinkeln lässt das Glas die Strahlung
+annähernd verlustfrei durch. Somit sind im Winter solare Gewinne möglich. In
+Abbildung \ref{fig:glassx schema} ist das Schema einer GLASSX\circledR crystal
+Fassade mit Prismenglas abgebildet. 
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[scale=0.7]{images/glassxcrystal.jpg}
+\caption{Schema einer GLASSX\circledR crystal Fassade \cite{glassxbr}}
+\label{fig:glassx schema}
+\end{center}
+\end{figure}
 
 \newpage
 \section{Ausblick}
@@ -291,5 +327,7 @@ Resultate zu diesem Projekt finden.
 	München. 2007
 	\bibitem{BINE2} BINE Energieforschung für die Praxis. projektinfo 2\/01
 	Thermochemische Speicher. 2001
+	\bibitem{glassxbr} GLASSX\circledR crystal. Das Glas, das speichert, wärmt und
+	kühlt. Produktbroschüre. Zürich. 2005. 
 \end{thebibliography}
 \end{document}
