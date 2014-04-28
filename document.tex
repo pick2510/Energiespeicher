@@ -76,22 +76,9 @@ Prinzip der Adsorption erklärt.
 \text{Sorbens}+nH_2O\leftrightharpoons \text{Sorbens}+nH_2O+\Delta H_{ads}
 \end{align}
 Nutzbar ist die freiwerdende Reaktionsenthalpie $\Delta H_{ads}$ wenn die
-Reaktion nach links erfolgt. Die Beladung erfolgt nach umgekehrten Prinzip.
-In Abbildung \ref{fig:Sorption} ist ein typischer wasserbasierter
-Adsorptionsspeicher dargestellt. Zum Beladen des Speichers wird der desorbierte
-Wasserdampf im Kondensator kondensiert. Entladen wird der Speicher mit
-niedrigtemperatur Verdampfung von Wasser, der Dampf wird anschliessend an ein
-Sorptionsmedium adsorbiert. Dabei wird Hochtemperaturwärme freigesetzt. 
+Reaktion nach links erfolgt. Die Beladung erfolgt nach umgekehrten Prinzip.  
 \cite{Wesselak}
 
-\begin{figure}[h]
-\begin{center}
-\includegraphics[scale=1]{images/sorption.pdf}
-\caption{Prinzip eines geschlossenen wasserbasierten Sorptionsprinzip
-\cite{Wesselak}}
-\label{fig:Sorption}
-\end{center}
-\end{figure}
 \subsection{Latente Speicher}
 Latentwärmespeicher nutzen den Phasenübergang eines Stoffs zur Speicherung von
 Wärme. Wie bei den chemischen Speichern beschränken sich die Einsatzgebiete auf
@@ -110,18 +97,7 @@ Die speicherbare Energie ergibt sich nach
 \end{align}
 Produkt von Masse und Schmelz/Kristallisationsenthalpie. Die verwendeten
 Materialien lassen sich zweidimensional anhand der
-Schmelz/Kristallationsenthalpie und der Schmelztemperatur kategorisieren. In
-Abbildung \ref{fig:Materials} sind einige Materialien die in
-Latentwärmespeichern Verwendung finden nach diesen zwei Attributen aufgelistet.
-
-\begin{figure}[h]
-\begin{center}
-\includegraphics[scale=1]{images/latentmaterial.pdf}
-\caption{Kategorisierung von PCM Materialien anhand der Enthlapie und
-Temperatur \cite{Hiebler}}
-\label{fig:Materials}
-\end{center}
-\end{figure}
+Schmelz/Kristallationsenthalpie und der Schmelztemperatur kategorisieren. 
 
 Nachteilig bei Latentwärmespeichern ist besonders, dass bei reinen Feststoffen
 naturgemäss kein konvektiver Wärmetransport stattfinden kann. Dem versucht man
@@ -168,7 +144,57 @@ Langzeitsenisbelwärmespicher abgebildet. D
 \end{figure}
 
 \section{Technologischer Überblick}
+In diesem Kapitel werden der Stand der Technik, die Entwicklung, Perspektiven
+und Herausforderungen der zwei zu behandelnden Speichertechnologien erläutert.
 \subsection{Latentspeicher}
+In den folgenden Unterkapiteln wird ein allgemeiner Überblick über
+Latentwärmespeicher gegeben und danach spezifisch auf den Stand der Technik und
+die zukünftige Entwicklung eingegangen.
+\subsubsection{Allgemein}
+Latentspeicher nützen den Phasenwechsel aus. Jedes Material besitzt einen
+sogenannten Schmelz- bzw. Erstarrungspunkt und einen Siede- bzw.
+Kondensationspunkt. An diesem Temperaturpunkt wechselt das Medium sine Phase von
+fest zu flüssig bzw. von flüssig zu gasförmig. Um diese Phasenänderung
+vorzunehmen benötigt das Medium viel Wärmeenergie bzw. gibt viel Wärmeenergie an
+die Umgebung ab. Das Beispiel in Abbildung \ref{fig:H2O} zeigt die Benötigte
+Wärmeenergie für die Temperaturerhöhung und den Phasenübergang von Wasser bei
+Normdruck auf.
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[scale=0.6]{images/Phasendiagramm.pdf}
+\caption{Phasenübergänge von \ce{H_2O} und die dafür benötigten Energiemengen}
+\label{fig:H2O}
+\end{center}
+\end{figure}
+Deutlich zu erkennen ist einerseits die enorm grosse Schmelz- und
+Verdampfungswärme im Vergleich zu der temperaturerhöhenden Wärme. Zu
+berücksichtigen ist dabei, dass die X-Achse nicht linear verläuft. Andererseits
+ist ersichtlich, dass die zum Phasenwechsel benötigte Wärme auf demselben
+Temperaturniveau stattfindet. Die Schmelz- und Verdampfungswärme wird auch als
+latente Wärme bezeichnet. Die restliche Wärme, welche eine Temperaturdifferenz
+hervorruft wird sensible Wärme genannt.
+Der Temperaturpunkt, an welchem der Phasenübergang stattfindet ist vom Medium
+und vom herrschenden Druck abhängig. Abbildung \ref{fig:H2O2} zeigt das
+Phasendiagramm von Wasser. Erkennbar ist, dass der Schmelz- und Siedepunkt sich
+mit Veränderung des Druckes ebenfalls ändern
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[scale=0.6]{images/Phasendiagramm2d.pdf}
+\caption{Phasendiagramm von \ce{H_2O} \cite{Phasendiagramm}}
+\label{fig:H2O2}
+\end{center}
+\end{figure}
+Bei einem Latentwärmespeicher versucht man somit ein Medium unter einem gewissen
+Druck zu halten, damit dieses einen Phasenwechsel vornimmt bei einer gewünschten
+Temperatur. Dadurch kann viel Energie bei keinem Temperaturhub gespeichert
+werden. Mit der untenstehenden Formel lässt sich die speicherbare Energie
+einfach berechnen:
+
+\begin{align}
+\Delta Qv = m \cdot (\Delta U + p \cdot \Delta V) = m \cdot \Delta V
+\end{align}
+
 \subsubsection{Stand der Technik}
 \subsubsection{Entwicklung}
 \subsubsection{Perspektiven}
@@ -274,9 +300,6 @@ in Evaluation. Insbesondere der tatsächlich erreichbare solare Deckungsgrad wä
 dabei von Interesse. Leider liessen sich im Internet keine aktualiserten
 Resultate zu diesem Projekt finden.
 \subsection{Latentspeicher}
-In diesem Kapitel werden zwei Anwendungen von Latentwärmespeichern bzw.
-bauteilen besprochen.
-\subsubsection{GLASSX}
 Die Zürcher Firma GLASSX stellt PCM Fassadenelemente her. 
 
 Kernprodukte sind
@@ -293,7 +316,7 @@ Umgebung ab. Da diese Elemente als Fassade bzw. direkt hinter der GLasfassade
 eingesetzt werden, wird bicht nur Raumwärme sondern auch die Einstrahlungswärme
 der Sonne genutzt. Infrarotstrahlung wird durch das PCM fast komplett
 absorbiert, für sichtbares Licht ist das Material zum grössten Teil durchlässig.
-Als weitere Innovation hat das Unternehmen ein Prismengals entwickelt, dass die
+Als weitere Innovation hat das Unternehmen ein Prismenglas entwickelt, dass die
 unterschiedlichen Einstrahlungswinkel während der Jahreszeiten als Selektion
 nutzt. Bei hohen Einstrahlungswinkeln wie sie im Sommer vorkommen wird über
 Totalreflexion der grösste Teil der Strahlung bereits im Prismenglas absorbiert.
@@ -310,6 +333,11 @@ Fassade mit Prismenglas abgebildet.
 \end{center}
 \end{figure}
 
+Der Autor konnte sich im Referenzgebäude von Marché Schweiz selber auf einer
+Exkursion von der Funktionalität der Elemente überzeugen. Die Wirkung dieser
+Bauteile ist bestechend. Das Raumklima blieb ohne zusätzliche Verschattung
+selbst im Hochsommer angenehm. Als Ergänzung zu den baulichen Massnahmen wurde
+die Luftbefeuchtung mit speziellen Wasserpflanzen gewährleistet. 
 \newpage
 \section{Ausblick}
 
@@ -329,5 +357,10 @@ Fassade mit Prismenglas abgebildet.
 	Thermochemische Speicher. 2001
 	\bibitem{glassxbr} GLASSX\circledR crystal. Das Glas, das speichert, wärmt und
 	kühlt. Produktbroschüre. Zürich. 2005. 
+	\bibitem{Phasendiagramm} Wikipedia Phasendiagramm. 
+	
+	Abgerufen von
+	http//commons.wikimedia.org/wiki/File:Phasendiagramme.svg am 28.04.2014.
+	Verändert von D.Strebel
 \end{thebibliography}
 \end{document}
