@@ -20,6 +20,8 @@
 \usepackage[pdftex]{graphicx}
 \usepackage{epstopdf}
 \usepackage[final]{pdfpages}
+\usepackage{booktabs}
+\usepackage{multirow}
 %\usepackage{chngcntr}
 %\usepackage{hyperref}0
 \usepackage{placeins}
@@ -192,10 +194,53 @@ werden. Mit der untenstehenden Formel lässt sich die speicherbare Energie
 einfach berechnen:
 
 \begin{align}
-\Delta Qv = m \cdot (\Delta U + p \cdot \Delta V) = m \cdot \Delta V
+\Delta Qv = m \cdot (\Delta U + p \cdot \Delta V) = m \cdot \Delta Hv
+\label{eq:latent}
 \end{align}
 
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{|l|p{5cm}|l|}
+\hline $\Delta Qv$ & Schmelz- bzw. Verdampfungswärme & [J] \\
+\hline $m$ & Masse & [kg] bzw [mol] \\
+\hline $\Delta Hv$ & Spezifische Schmelz- bzw. Verdampfungsentalphie & [J/kg]
+bzw. [J/mol] \\
+\hline
+\end{tabular}
+\caption{Variablen der Gleichung \ref{eq:latent}}
+\end{center}
+\end{table}
+
+Dabei hängt die Masse von der Grösse des Speichers ab und die spezifische
+Enthalpie ist Mediumsabhängig.
+
+\begin{table}[h]
+\begin{center}
+\begin{tabular}{@{}llp{3cm}p{3cm}l@{}}
+\toprule
+                  Speicherart & Stoff & Arbeitstemperatur \newline[$^{\circ}
+                  C$]& Speicherkapazität \newline [kWh/m$^3$] &
+                  Entwicklungsstand
+                  \\
+                  \toprule \multirow{2}{*}{Sensibel} & Wasser  & 0-100 & 60 &
+                  ausgereift
+                  \\
+                  & Beton & 0-500 & 30 & ausgereift  \\ \hline
+\multirow{3}{*}{Latent} &Paraffine  & 0-70 & 60  & entwickelt  \\
+                  & Salzhydrate & 30-100 & 150 & entwickelt \\
+                  & Salze  & 100-400 & 100 & entwickelt \\ \hline
+\multirow{3}{*}{Thermochemisch} & Silikagele & 40-100 & 200 & in Entwicklung  \\
+                  & Zeolithe & 100-300  & 200 & in Entwicklung \\
+                  & Metallhydride & 300-900 & 500 & in Entwicklung  \\ \toprule
+\end{tabular}
+\end{center}
+\end{table}
+
 \subsubsection{Stand der Technik}
+Im Gegensatz zu sensiblen Wärmespeicher, werden Latentwärmespeicher weniger
+häufig eingesetzt. Wie die folgende Tabelle zeigt sind verschiedene Latentspeicher entwickelt aber noch nicht ausgereift.
+
+
 \subsubsection{Entwicklung}
 \subsubsection{Perspektiven}
 \subsubsection{Herausforderungen}
