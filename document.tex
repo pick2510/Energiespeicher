@@ -326,9 +326,45 @@ latenten Wärmespeichern in Frage stellen. Verschiedene Forschungsprojekte
 möchten jedoch einen wirtschaftlichen Vorteil gegenüber sensiblen Speichern
 erreichen.
 
-\subsection{P
+\subsection{PCM Slurries}
+In diesem Kapitel werden thermodynamische Eigenschaften von PCM-Slurries
+aufgezeigt und mit denen von Wasser verglichen.
+\subsubsection{Thermodynamischer Sachverhalt}
+Heutzutage werden die meisten Gebäude mit einem Wassersystem geheizt und
+gekühlt. Wasser wird aus verschiedenen Gründen verwendet. Grosse Vorteile sind
+dabei die hohe spezifische Wärmekapazität, die Umweltverträglichkeit und der
+günstige Preis. Wasser hat beispielsweise pro Kilogramm eine viermal höhere
+Wärmekapazität als Luft. Somit lässt sich dieselbe Energie mit einem deutlich
+kleineren Massenstrom befördern. Mit der folgenden Formel kann die Abhängigkeit
+zwischen Medium, Massenstrom, Temperaturänderung und Wärmetransport aufgezeigt
+werden.
 
+\begin{align}
+\dot{Q}=\dot{m} \cdot c_p \cdot \Delta T
+\label{eq:PCM}
+\end{align}
 
+\begin{table}[h!]
+\begin{center}
+\caption{Variablen der Gleichung \ref{eq:PCM}}
+\begin{tabular}{|l|l|l|}
+\hline $\dot{Q}$ & Wärmeleistung & [W] \\
+\hline $\dot{m}$ & Massenstrom & [kg/s] \\
+\hline $c_p$ & spezifische Wärmekapazität & [J/kg $\cdot$ K] \\
+\hline $\Delta T$ & Temperaturdifferenz zwischen Vor- und Rücklauf & [K] \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+Die spezifische Wärmekapazität hängt dabei vom entsprechenden Medium ab. Je
+höher der Massenstrom bei gleichbleibender Wärmeleistung umso geringer die
+Temperaturdifferenz. Um einen optimalen Betrieb des Heizungs- bzw. Kühlsystems
+zu erreichen sollte einerseits die Temperatur des Mediums möglichst tief gewählt
+werden um Wärmeverluste zu minimieren und allenfalls der Coefficient of
+Performance (COP) der Wärmepumpe bzw. Kältemaschine zu erhöhen. Andererseits
+sollte auch der benötigte Strom für die Beförderung des Mediums möglichst gering
+gehalten werden. Dies erhält man mit einem möglichst kleinen Massenstrom. Es
+liegt ein Optimierungsproblem vor.
 
 
 \subsubsection{Herausforderungen}
