@@ -135,7 +135,7 @@ definieren. Wasser besitzt mit 4.19 kJ/kg/K eine hohe spezifische
 Wärmekapazität und wird deshalb als kostengünstiges, effizientes und
 umweltfreundliches Medium omnipräsent eingesetzt.
 In Abbildung \ref{fig:Langzeitspeicher} sind die verfügbaren
-Langzeitsenisbelwärmespicher abgebildet. D
+Langzeitsenisbelwärmespicher abgebildet.
 
 \begin{figure}[h]
 \begin{center}
@@ -432,12 +432,77 @@ und 27°C statt. Die Temperaturdifferenz ganz zu eliminieren ist zurzeit noch
 nicht möglich.
 \begin{figure}[h!]
 \begin{center}
-\includegraphics[scale=0.8]{images/GschwanderEnt.pdf}
+\includegraphics[scale=0.6]{images/GschwanderEnt.pdf}
 \caption{Vergleich zwischen Enthalpie und Temperatur \cite{Gschwander}}
 \label{fig:GschwanderEnt}
 \end{center}
 \end{figure}
+
 \subsubsection{Herausforderungen}
+
+Die Phase Change Material, PCM nutzen den Phasenwechsel zwischen flüssigem und festem Aggregatszustand aus. Da dies konstruktiv eine Herausforderung darstellt, wird in diesem Kapitel genauer darauf eingegangen.
+
+In diesem Abschnitt schauen wir uns anhand eines Experiments den Schmelzprozess im Raum genauer an. Dabei handelt es sich um einen kugelförmigen Raum, darin befindet sich das PCM, welches zu Beginn überall als Festkörper besteht. Die Kugelform befindet sich ein einem Wasserbad, wodurch es möglich ist eine konstante Temperatur der Kugeloberfläche zu bekommen. In der Abbildung \ref{fig:Meltinginsidesphere} (a) ist ein sogenanntes Ungezwungenes System, und die Abbildung \ref{fig:Meltinginsidesphere} (b) zeigt ein eingeschränktes System, dies bedeutet in diesem Fall, es hat ein vertikales Rohr, wo Thermoelemente darin befinden sich.
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[scale=0.3]{images/Meltinginsidesphere.png}
+\caption{Schmelzprozess innerhalb einer Kuge. a) nicht konstantes schmelzen und b) konstantes Schmelzen \cite{WasteEnergyHarvesting}}
+\label{fig:meltingpaper}
+\end{center}
+\end{figure}
+
+Wird das Experiment nun gestartet ergeben sich zwei unterschiedliche Formen und auch die Zeit bis das ganze PCM geschmolzen ist verhält sich nicht gleich. In der Abbildung \ref{fig:meltingphasefront} ist dargestellt wie das verhalten über der Zeit ist. Es ist zu erkennen, das der Fall des eingeschränkten System etwa ein Drittel länger braucht als das ungezwungene System bis das PCM total flüssig ist.
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[scale=0.3]{images/meltingphasefront.png}
+\caption{Serie der Schmelzfront über bei verschiedenen Zeitpunkten \cite{meltingpaper}}
+\label{fig:meltingphasefront}
+\end{center}
+\end{figure}
+
+Nun betrachten wir den Gründen für dieses Verhalten. Die Abbildung \ref{fig:heatconductionin} zeigt die natürliche Konvektion, des ungezwungenen und des eingeschränkten Experiment. Die natürliche Konvektion, also die durch den Dichteunterschied und Gravitationskraft getriebener austausch und die Wärmeleitfähigkeit spielen dabei eine wesentliche Rolle. Bei der eingeschränkten Experiment mit dem Rohr in der Mitte beginnt es gleichmässig von aussen nach innen zu schmelzen, dies funktioniert zu Beginn auch optimal, da der Phasenwechsel direkt an der Kugelaussenwand passiert. Schon nach kurzer Zeit grenzt keine Festphase mehr an die Aussenwand und es stellt sich eine Natürliche Konvektion ein siehe Abbildung \ref{fig:heatconductionin} (b) welche rings um den Festkörper wirkt und so eine Barriere wirkt für den Phasenwechsel. Bei dem Experimentfall beginnt es langsamer geht dann schlussendlich schneller bis das ganze PCM geschmolzen ist. Dies ist so, weil dauernd der Kontakt der festen Phase mit der Kugeloberfläche besteht und dieser Effekt durch das Eigengewicht der festen Phase immer besteht. 
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[scale=0.6]{images/heatconductionin.png}
+\caption{Wärmeleitung und natürliche konvektion in nicht konstantem Fall a) und im konstanten Fall b) \cite{WasteEnergyHarvesting}}
+\label{fig:heatconductionin}
+\end{center}
+\end{figure}
+
+Der Vergleich zeigt, dass in diesem Untersuchen Fall, als das Schmelzen eines kugelförmigen PCM besser keine einbauten hat, da die natürlichen Effekte ein schlussendlich schnelleres schmelzen verursachen.
+Es gibt auch andere Überlegungen von der Anordnung und Form für das PCM. So zum Beispiel mit Rippen, siehe Abbildung \ref{fig:threedimensionalphysicalmodel} und auch hier gibt es gewünschte und ungewünschte Effekte wie Experimente und Simulationen zeigen. Aber auch Zylinder mit verschiedensten Arten von Material das eine gute Leitfähigkeit hat und nicht viel Volumen wegnimmt und dies zum Teil strukturiert oder unstrukturiert verteilt, siehe Abbildung \ref{fig:simulatedvelocity}
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[scale=0.5]{images/threedimensionalphysicalmodel.png}
+\caption{Vergleich zwischen Enthalpie und Temperatur \cite{WasteEnergyHarvesting}}
+\label{fig:threedimensionalphysicalmodel}
+\end{center}
+\end{figure}
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[scale=0.6]{images/simulatedvelocity.png}
+\caption{Vergleich zwischen Enthalpie und Temperatur \cite{WasteEnergyHarvesting}}
+\label{fig:simulatedvelocity}
+\end{center}
+\end{figure}
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[scale=0.6]{images/configurationofthecarbonnanofibers.png}
+\caption{Konfiguration von Carbon Nanofibers, In a) ist es unstrukturiert und in b) ist es strukturiert eingebaut. \cite{WasteEnergyHarvesting}}
+\label{fig:configurationofthecarbonnanofibers}
+\end{center}
+\end{figure}
+
+Zusammengefasst die Zahl und Formen von PCM Speichern sollte optimiert werden und es gibt noch keine klaren Ergebnisse und deshalb wird es weitere Studien dazu geben.
+Eine andere Möglichkeit wäre der Phasenübergang von gasförmig zu flüssig zu verwenden, hier wäre das Fluid immer Flüssig und somit gut förderbar bzw. durch die eigene Konvektion besser als das feste Material.
+
+
 \subsection{chemische Speicher}
 \subsubsection{Stand der Technik}
 \subsubsection{Entwicklung}
@@ -586,28 +651,41 @@ die Luftbefeuchtung mit speziellen Wasserpflanzen gewährleistet.
 \newpage
 \begin{thebibliography}{99}
 	\bibitem{BINE1}BINE Energieforschung für die Praxis. Abgerufen am 11.04.2014
+	
 	von http://www.bine.info/typo3temp/pics/b193b0972c.gif verändert durch D. Strebel
 	\bibitem{Wesselak}Wesselak et. al. Regenerative Energiesysteme. 2. Auflage.
 	Springer Vieweg Verlag Berlin. 2013
+	
 	\bibitem{Hiebler} Hiebler S. Kalorimetrische Methoden zur Bestimmung der
 	Enthalpie von Latentwärmespeichermaterialien während des Phasenübergangs. Dissertation.
 	München. 2007
+	
 	\bibitem{BINE2} BINE Energieforschung für die Praxis. projektinfo 2\/01
 	Thermochemische Speicher. 2001
+	
 	\bibitem{glassxbr} GLASSX\circledR crystal. Das Glas, das speichert, wärmt und
-	kühlt. Produktbroschüre. Zürich. 2005. 
+	kühlt. Produktbroschüre. Zürich. 2005.
+	 
 	\bibitem{Phasendiagramm} Wikipedia Phasendiagramm. 
 	
 	Abgerufen von
 	http//commons.wikimedia.org/wiki/File:Phasendiagramme.svg am 28.04.2014.
 	Verändert von D.Strebel
+	
 	\bibitem{Henning} Henning H.M. Phasenwechselmaterialien in Baumaterialien und
 	Leitungssystemen. Präsentation. Fraunhofer Institut für solare Energiesysteme,
 	Freiburg. 2007
+	
 	\bibitem{Gschwander} Gschwander S. et al. Micro-encapsulated paraffinin
 	phase-change slurries. Fraunhofer Institut für solare Energiesysteme,
 	Freiburg. Elsevier Verlag. 2005
+
 	\bibitem{BINE3} BINE Energieforschung für die Praxis. Projektinfo 16/2012.
 	Pahsenübergang speichert Wärme. 2012
+		
+	\bibitem{meltingpaper} Constrained and unconstrained melting inside a sphere. Available online at www.sciencedirect.com. 2007
+	
+	\bibitem{WasteEnergyHarvesting} Waste Energy Harvesting, Mechanical and Thermal Energies, Volume 24.
+		Springer Vieweg Verlag Berlin. 2014
 \end{thebibliography}
 \end{document}
