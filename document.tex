@@ -467,7 +467,7 @@ Nun betrachten wir den Gründen für dieses Verhalten. Die Abbildung \ref{fig:he
 
 \begin{figure}[h!]
 \begin{center}
-\includegraphics[scale=0.6]{images/heatconductionin.jpg}
+\includegraphics[scale=0.2]{images/heatconductionin.jpg}
 \caption{Wärmeleitung und natürliche konvektion in nicht konstantem Fall a) und im konstanten Fall b) \cite{WasteEnergyHarvesting}}
 \label{fig:heatconductionin}
 \end{center}
@@ -478,7 +478,7 @@ Es gibt auch andere Überlegungen von der Anordnung und Form für das PCM. So zu
 
 \begin{figure}[h!]
 \begin{center}
-\includegraphics[scale=0.5]{images/threedimensionalphysicalmodel.jpg}
+\includegraphics[scale=0.2]{images/threedimensionalphysicalmodel.jpg}
 \caption{Vergleich zwischen Enthalpie und Temperatur \cite{WasteEnergyHarvesting}}
 \label{fig:threedimensionalphysicalmodel}
 \end{center}
@@ -486,7 +486,7 @@ Es gibt auch andere Überlegungen von der Anordnung und Form für das PCM. So zu
 
 \begin{figure}[h!]
 \begin{center}
-\includegraphics[scale=0.6]{images/simulatedvelocity.jpg}
+\includegraphics[scale=0.2]{images/simulatedvelocity.jpg}
 \caption{Vergleich zwischen Enthalpie und Temperatur \cite{WasteEnergyHarvesting}}
 \label{fig:simulatedvelocity}
 \end{center}
@@ -494,7 +494,7 @@ Es gibt auch andere Überlegungen von der Anordnung und Form für das PCM. So zu
 
 \begin{figure}[h!]
 \begin{center}
-\includegraphics[scale=0.6]{images/configurationofthecarbonnanofibers.jpg}
+\includegraphics[scale=0.2]{images/configurationofthecarbonnanofibers.jpg}
 \caption{Konfiguration von Carbon Nanofibers, In a) ist es unstrukturiert und in b) ist es strukturiert eingebaut. \cite{WasteEnergyHarvesting}}
 \label{fig:configurationofthecarbonnanofibers}
 \end{center}
@@ -504,11 +504,102 @@ Zusammengefasst die Zahl und Formen von PCM Speichern sollte optimiert werden un
 Eine andere Möglichkeit wäre der Phasenübergang von gasförmig zu flüssig zu verwenden, hier wäre das Fluid immer Flüssig und somit gut förderbar bzw. durch die eigene Konvektion besser als das feste Material.
 
 
-\subsection{chemische Speicher}
-\subsubsection{Stand der Technik}
-\subsubsection{Entwicklung}
+\subsection{Chemischer Speicher}
+Gleich vorweg, im Gegensatz zu sensiblen oder latenten Wärmespeichern, die bereits kommerziell erhältlich sind, sind thermochemische Speicher bislang nur Gegenstand der Forschung \cite{gegenstandderforschung}. So oder so soll in diesem Kapitel näher darauf eingegangen werden, da dieser Art von Speicher auch seine Vorzüge hat nachfolgend ein paar Gründe.
+\begin{itemize}
+\item Speicherung grosser Wärmemengen, da eine hohe Energiedichte 
+\item Grosses Spektrum von verfügbaren Temperaturen
+\item Specherung über lange Zeiträme ohne grosse Verluste
+\end{itemize}
+
+\subsubsection{Arbeitsprinzip}
+Bei der thermochemischen Speicherung werden chemische Reaktionen genützt um Wärme in einem Material zu speichern. Das Arbeitsprinzip dieser Speicher ist in Abbildung \ref{fig:ladenspeichernentladens} ersichtlich. Wenn dem Material Wärme zugeführt wird, wird es in zwei Komponenten zerlegt. Diese beiden Komponenten können für lange Zeit ohne Energieverlust gespeichert werden. Werden diese beiden wieder zusammengebracht, so findet die Umkehrreaktion statt und die Wärme wird wieder frei. 
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[scale=0.6]{images/ladenspeichernentladen.jpg}
+\caption{Arbeitsprinzip \cite{ladenspeichernentladen}}
+\label{fig:ladenspeichernentladens}
+\end{center}
+\end{figure}
+
+Wird dies Technisch mittels Sorption umgesetzt, wo sich unterteilen lässt in Adsorbtion und Absorption. Diese können jeweils durch ein offenes oder geschlossenen Systemen umgesetzt werden.
+
+
+\subsubsection{Stand der Technik der Adsorption}
+Die Abbildung \ref{fig:adsorption} zeigt der Prozess einer geschlossenen Adsorption.
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[scale=0.6]{images/prozess.jpg}
+\caption{Prozess von Adsorption}
+\label{fig:adsorption}
+\end{center}
+\end{figure}
+
+
+Technisch würde ein System aus einem Porösen Festkörper. 
+
+Beim Laden des Speichers, siehe Abbildung \ref{fig:geschlossenerladen} wird Wasser unter Wärmezufuhr aus Speichermaterial desorbiert. Die Kondensation des Wasserdampf auf der passiert hier auf der linken Seite. Dabei muss gewährleistet sein, dass $p_{v/k}$ < $p_R$ < 1bar ist. 
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[scale=0.6]{images/geschlossenerladen.jpg}
+\caption{Laden}
+\label{fig:geschlossenerladen}
+\end{center}
+\end{figure}
+
+Bei der Entladung des Speichers wird das Wasser unter Vakuum verdampft. Es passiert die Adsorption von Wasserdampfmolekülen am Speichermatierial und es wird Wärme abgegeben. Dabei muss gewährleistet sein, dass 1bar > $p_{v/k}$ > $p_R$ ist. 
+
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[scale=0.6]{images/geschlossenerentladen.jpg}
+\caption{Offenes Adsorptionssystem mit festem Adsorbens}
+\label{fig:geschlossenerentladen}
+\end{center}
+\end{figure}
+
+
+Eine andere Möglichkeit ist die Adsorption mittels offenes System, welches in der Abbildung \ref{fig:offenessystemadsorption} dargestellt ist. Diese beinahtlen ein festen Adsorbentien (z.B. Zeolithen oder Silikagelen).  Bei der offenen Adsorptionssystem transportiert der Luftstrom die Wärme und den Wasserdampf in und aus einer Adsorbensschüttung. Somit werden die Lufttemperatur und gleichzeitig der Wasserdampfpartialdruck des Luftstroms durch den Sorptionsprozess beeinflusst. Die umgestzen Stoff- und Wärmemengen sind in der \ref{fig:offenessystemadsorption} angedeutet.
+
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[scale=0.6]{images/offenessystemadsorption.jpg}
+\caption{Offenes Absorptionssystem mit flüssigem Absorbens}
+\label{fig:offenessystemadsorption}
+\end{center}
+\end{figure}
+
+
+
+
+\subsubsection{Stand der Technik der Absorption}
+
+Ähnlich lässt sich ein offenes Absorptionssystem beschreiben, siehe Abbildung \ref{fig:offenessystemabsorption}. Dabei wird jedoch mit flüssigen Absorbentien (wässerigen Salzlösungen, z.B. Lithiumchlorid oder Calciumchlorid) realisiert werden. Bei der Desorption wird verdünnte Salzlösung durch heisse Luft wieder konzentriert und der ausgetriebene Wasserdampf wird mit dem Luftstrom abtransportiert. Die konzentrierte Lösung kann bei der folgenden Absorption einen Luftstrom entfeuchten. Dabei wird sie wieder verdünnt. Die entfeuchtete Luft kann durch einen nachgeschalteten Befeuchter abgekühlt und zur Klimatierung eingesetzt werden. Die gespeicherte Energie lässt sich aus der Konzentrationsdifferenz der konzentrierten und verdünnten Lösung bestimmen. Da flüssige Absorbentien im Allgemeinen über deutlich geringere Bindungskräfte als feste Adsorbetien verfügen, wird bei der Absorption die entfeuchtete Luft vergleichsweise wenig erhitzt. Daher sind diese Speicher für den Einsatz in Heizanwendungen weniger oder nicht geeignet.
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[scale=0.6]{images/offenessystemabsorption.jpg}
+\caption{Entladen}
+\label{fig:offenessystemabsorption}
+\end{center}
+\end{figure}
+
+
+Zum Bereich mit der Absorption des geschlossenen System konnten keine Informationen gefunden werden. Dies wird jedoch in einer Wärmepumpe eingesetzt, ist aber kein Speicher.
+
+
+\subsubsection{Entwicklung und Herausforderungen}
+Unter den vielen Speicherformen hat die thermochemische Wärmespeicherung die theoretisch höchste Wärmespeicherdichte der unterschiedlichen Speicherform und weisst beinahe keine Verluste bei der Speicherung auf. Die Materialentwicklung und Systemintegration steckt derzeit jedoch noch in den Kinderschuhen. 
+Die Forschung konzentriert sich derzeit auf die Entwicklung von leistungsfähigen, preiswerter und zyklenstabiler Materialen. Es müssen auch Konzepte gefunden werden für Speicher um die entstehenden Sorptionswärmen möglichst schnell abzuführen und wie dies im Gebäude integriert werden soll ist auch noch offen. Möglicherweise wäre es sogar denkbar solche Speicher zu transportieren um die Wärmeenergie Produktionsort und Verbraucherort sich nicht vereinbaren lassen.
+
 \subsubsection{Perspektiven}
-\subsubsection{Herausforderungen}
+Das Spektrum möglicher Einsatzgebiete für Sorptionsspeicher ist breit, dies vor allem so, weil offene und geschlossene Speichersystemen zur Verfügung stehen in ganz verschiedenen Temperaturbereichen. 
+
+
 
 
 \newpage
@@ -668,7 +759,6 @@ die Luftbefeuchtung mit speziellen Wasserpflanzen gewährleistet.
 	kühlt. Produktbroschüre. Zürich. 2005.
 	 
 	\bibitem{Phasendiagramm} Wikipedia Phasendiagramm. 
-	
 	Abgerufen von
 	http//commons.wikimedia.org/wiki/File:Phasendiagramme.svg am 28.04.2014.
 	Verändert von D.Strebel
@@ -688,5 +778,13 @@ die Luftbefeuchtung mit speziellen Wasserpflanzen gewährleistet.
 	
 	\bibitem{WasteEnergyHarvesting} Waste Energy Harvesting, Mechanical and Thermal Energies, Volume 24.
 		Springer Vieweg Verlag Berlin. 2014
+		
+	\bibitem{gegenstandderforschung} Technische Universität München. TcET – Thermochemischer Energiespeicher für thermische Kraftwerke und industrielle Wärme.
+	Abgerufen von http://www.es.mw.tum.de/index.php?id=322 am 03.05.2014		
+		
+	
+	\bibitem{ladenspeichernentladen} Erneuerbare Energie. 
+	Abgerufen von http://www.aee.at am 03.05.2014
+	
 \end{thebibliography}
 \end{document}
