@@ -61,6 +61,17 @@ der Abbildung
 \end{center}
 \end{figure}
 
+
+Diese verschiedenen Arten von Wärmespeichern haben natürlich auch ganz eigene Eigenschaften bezüglich Energiedichte und Einsatztemperaturen. Die Abbildung \ref{fig:temperaturenergiedichte} zeigt den Überblick. Die Abkürzungen TCM steht für Thermo Chemical Material und die PCM für Phase Change Material. Der Vergleich zeigt, dass von den fühlbaren Wärmespeicherung über die latente zur Thermochemischen Wärmespeicherung grosse unterscheide bestehen.
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[scale=0.5]{images/temperaturenergiedichte.jpg}
+\caption{Überblick der verschiedenen Thermischen Energiespeichern \cite{zaebayern}}
+\label{fig:temperaturenergiedichte}
+\end{center}
+\end{figure}
+
 \subsection{Chemische Speicher}
 Chemische Speicher werden über eine chemsiche Reaktion be- und entladen. Per
 Definition eines Speichers sind diese Reaktionen reversibel. Die nutzbare
@@ -432,7 +443,7 @@ und 27°C statt. Die Temperaturdifferenz ganz zu eliminieren ist zurzeit noch
 nicht möglich.
 \begin{figure}[h!]
 \begin{center}
-\includegraphics[scale=0.6]{images/GschwanderEnt.pdf}
+\includegraphics[scale=1]{images/GschwanderEnt.pdf}
 \caption{Vergleich zwischen Enthalpie und Temperatur \cite{Gschwander}}
 \label{fig:GschwanderEnt}
 \end{center}
@@ -440,62 +451,59 @@ nicht möglich.
 
 \subsubsection{Herausforderungen}
 
-Die Phase Change Material, PCM nutzen den Phasenwechsel zwischen flüssigem und festem Aggregatszustand aus. Da dies konstruktiv eine Herausforderung darstellt, wird in diesem Kapitel genauer darauf eingegangen.
+Die Phase Change Material, PCM nutzen den Phasenwechsel aus was zu neuen Herausforderungen führt. Der Aggregatszustandswechsel zwischen fest und flüssig wie auch der Wechsel von flüssig zu gasförmig hat seine Eigenheiten. Konstruktiv ist bei dem Phasensenwechsel zwischen fest und flüssig eine Herausforderung die Wärme im Raum zu verteilen, dies wird nachfolgend genauer beschrieben. Anderseits ist beim übergang von flüssig zu gasförmig die Herausforderung der ganz verschiedenen Dichten und somit Volumen ein Problem.
 
-In diesem Abschnitt schauen wir uns anhand eines Experiments den Schmelzprozess im Raum genauer an. Dabei handelt es sich um einen kugelförmigen Raum, darin befindet sich das PCM, welches zu Beginn überall als Festkörper besteht. Die Kugelform befindet sich ein einem Wasserbad, wodurch es möglich ist eine konstante Temperatur der Kugeloberfläche zu bekommen. In der Abbildung \ref{fig:Meltinginsidesphere} (a) ist ein sogenanntes Ungezwungenes System, und die Abbildung \ref{fig:Meltinginsidesphere} (b) zeigt ein eingeschränktes System, dies bedeutet in diesem Fall, es hat ein vertikales Rohr, wo Thermoelemente darin befinden sich.
+Wir uns anhand eines Experiments den Schmelzprozess im Raum genauer an. Dabei handelt es sich um einen kugelförmigen Raum, darin befindet sich ein PCM-Werkstoff, welches zu Beginn überall als Festkörper besteht. Die Kugelform befindet sich in einem Wasserbad, wodurch es möglich ist eine konstante Temperatur der Kugeloberfläche zu bekommen. In der Abbildung \ref{fig:meltingpaper} (a) ist ein sogenanntes Ungezwungenes System, und die Abbildung \ref{fig:meltingpaper} (b) zeigt ein eingeschränktes System, dies bedeutet in diesem Fall, es hat ein vertikales Rohr, wo Thermoelemente darin befinden sich.
 
 \begin{figure}[h!]
 \begin{center}
 % Dieses Bild sollte erstezt werden
-\includegraphics[scale=0.3]{images/Meltinginsidesphere.jpg}
+\includegraphics[scale=0.4]{images/Meltinginsidesphere.jpg}
 \caption{Schmelzprozess innerhalb einer Kuge. a) nicht konstantes schmelzen und b) konstantes Schmelzen \cite{WasteEnergyHarvesting}}
 \label{fig:meltingpaper}
 \end{center}
 \end{figure}
 
-Wird das Experiment nun gestartet ergeben sich zwei unterschiedliche Formen und auch die Zeit bis das ganze PCM geschmolzen ist verhält sich nicht gleich. In der Abbildung \ref{fig:meltingphasefront} ist dargestellt wie das verhalten über der Zeit ist. Es ist zu erkennen, das der Fall des eingeschränkten System etwa ein Drittel länger braucht als das ungezwungene System bis das PCM total flüssig ist.
+Wird das Experiment nun gestartet ergeben sich zwei unterschiedliche Formen und auch die Zeit bis das ganze PCM geschmolzen ist verhält sich nicht gleich. In der Abbildung \ref{fig:meltingphasefront} ist dargestellt wie das verhalten über der Zeit ist. Es ist zu erkennen, das der Fall des eingeschränkten System etwa ein Drittel länger braucht als das ungezwungene System bis das PCM total flüssig ist. Dies ist auf den ersten Blick wohl eher verwunderlich.
 
 \begin{figure}[h!]
 \begin{center}
-\includegraphics[scale=0.3]{images/meltingphasefront.jpg}
+\includegraphics[scale=0.35]{images/meltingphasefront.jpg}
 \caption{Serie der Schmelzfront über bei verschiedenen Zeitpunkten \cite{meltingpaper}}
 \label{fig:meltingphasefront}
 \end{center}
 \end{figure}
 
-Nun betrachten wir den Gründen für dieses Verhalten. Die Abbildung \ref{fig:heatconductionin} zeigt die natürliche Konvektion, des ungezwungenen und des eingeschränkten Experiment. Die natürliche Konvektion, also die durch den Dichteunterschied und Gravitationskraft getriebener austausch und die Wärmeleitfähigkeit spielen dabei eine wesentliche Rolle. Bei der eingeschränkten Experiment mit dem Rohr in der Mitte beginnt es gleichmässig von aussen nach innen zu schmelzen, dies funktioniert zu Beginn auch optimal, da der Phasenwechsel direkt an der Kugelaussenwand passiert. Schon nach kurzer Zeit grenzt keine Festphase mehr an die Aussenwand und es stellt sich eine Natürliche Konvektion ein siehe Abbildung \ref{fig:heatconductionin} (b) welche rings um den Festkörper wirkt und so eine Barriere wirkt für den Phasenwechsel. Bei dem Experimentfall beginnt es langsamer geht dann schlussendlich schneller bis das ganze PCM geschmolzen ist. Dies ist so, weil dauernd der Kontakt der festen Phase mit der Kugeloberfläche besteht und dieser Effekt durch das Eigengewicht der festen Phase immer besteht. 
+Nun betrachten wir die Gründe, weshalb ein ungezwungene Schmelzung in diesem Fall schneller von statten geht als das gezwungene System. Die Abbildung \ref{fig:heatconductionin} zeigt die natürliche Konvektion, des ungezwungenen und des eingeschränkten Experiment. Die natürliche Konvektion, also die durch den Dichteunterschied und Gravitationskraft getriebener Austausch und die Wärmeleitfähigkeit spielen dabei eine wesentliche Rolle. Bei der eingeschränkten Experiment mit dem Rohr in der Mitte beginnt es gleichmässig von aussen nach innen zu schmelzen, dies funktioniert zu Beginn auch optimal, da der Phasenwechsel direkt an der Kugelaussenwand passiert. Schon nach kurzer Zeit grenzt keine Festphase mehr an die Aussenwand und es stellt sich eine natürliche Konvektion ein siehe Abbildung \ref{fig:heatconductionin} (b) welche rings um den Festkörper wirkt und so eine Barriere wirkt für den Phasenwechsel. Bei dem Experimentfall beginnt es langsamer geht dann schlussendlich schneller bis das ganze PCM geschmolzen ist. Dies ist so, weil dauernd der Kontakt der festen Phase mit der Kugeloberfläche besteht und dieser Effekt durch das Eigengewicht der festen Phase immer besteht. 
 
 \begin{figure}[h!]
 \begin{center}
-\includegraphics[scale=0.2]{images/heatconductionin.jpg}
+\includegraphics[scale=0.6]{images/heatconductionin.jpg}
 \caption{Wärmeleitung und natürliche konvektion in nicht konstantem Fall a) und im konstanten Fall b) \cite{WasteEnergyHarvesting}}
 \label{fig:heatconductionin}
 \end{center}
 \end{figure}
 
 Der Vergleich zeigt, dass in diesem Untersuchen Fall, als das Schmelzen eines kugelförmigen PCM besser keine einbauten hat, da die natürlichen Effekte ein schlussendlich schnelleres schmelzen verursachen.
-Es gibt auch andere Überlegungen von der Anordnung und Form für das PCM. So zum Beispiel mit Rippen, siehe Abbildung \ref{fig:threedimensionalphysicalmodel} und auch hier gibt es gewünschte und ungewünschte Effekte wie Experimente und Simulationen zeigen. Aber auch Zylinder mit verschiedensten Arten von Material das eine gute Leitfähigkeit hat und nicht viel Volumen wegnimmt und dies zum Teil strukturiert oder unstrukturiert verteilt, siehe Abbildung \ref{fig:simulatedvelocity}
+
+Es gibt auch andere Überlegungen von der Anordnung und Form für das PCM. So zum Beispiel mit Rippen, siehe Abbildung \ref{fig:threedimensionalphysicalmodel} und auch hier gibt es gewünschte und ungewünschte Effekte wie Experimente und Simulationen zeigen. Aber auch Zylinder mit verschiedensten Arten von Material das eine gute Leitfähigkeit hat und nicht viel Volumen benötigt und dies zum Teil strukturiert oder unstrukturiert verteilt, siehe Abbildung \ref{fig:simulatedvelocity}
 
 \begin{figure}[h!]
 \begin{center}
-\includegraphics[scale=0.2]{images/threedimensionalphysicalmodel.jpg}
-\caption{Vergleich zwischen Enthalpie und Temperatur \cite{WasteEnergyHarvesting}}
-\label{fig:threedimensionalphysicalmodel}
-\end{center}
-\end{figure}
-
-\begin{figure}[h!]
-\begin{center}
+\includegraphics[scale=0.4]{images/threedimensionalphysicalmodel.jpg}
+\hspace{1cm}
 \includegraphics[scale=0.2]{images/simulatedvelocity.jpg}
 \caption{Vergleich zwischen Enthalpie und Temperatur \cite{WasteEnergyHarvesting}}
+\label{fig:threedimensionalphysicalmodel}
 \label{fig:simulatedvelocity}
 \end{center}
 \end{figure}
 
+
 \begin{figure}[h!]
 \begin{center}
-\includegraphics[scale=0.2]{images/configurationofthecarbonnanofibers.jpg}
-\caption{Konfiguration von Carbon Nanofibers, In a) ist es unstrukturiert und in b) ist es strukturiert eingebaut. \cite{WasteEnergyHarvesting}}
+\includegraphics[scale=0.5]{images/configurationofthecarbonnanofibers.jpg}
+\caption{Konfiguration von Carbon Nanofibers, In Abbildung a) ist es unstrukturiert und in b) ist es strukturiert eingebaut. \cite{WasteEnergyHarvesting}}
 \label{fig:configurationofthecarbonnanofibers}
 \end{center}
 \end{figure}
@@ -505,15 +513,15 @@ Eine andere Möglichkeit wäre der Phasenübergang von gasförmig zu flüssig zu
 
 
 \subsection{Chemischer Speicher}
-Gleich vorweg, im Gegensatz zu sensiblen oder latenten Wärmespeichern, die bereits kommerziell erhältlich sind, sind thermochemische Speicher bislang nur Gegenstand der Forschung \cite{gegenstandderforschung}. So oder so soll in diesem Kapitel näher darauf eingegangen werden, da dieser Art von Speicher auch seine Vorzüge hat nachfolgend ein paar Gründe.
+Gleich vorweg, im Gegensatz zu sensiblen oder latenten Wärmespeichern die bereits kommerziell erhältlich sind, sind die Chemische Speicher bislang nur Gegenstand der Forschung \cite{gegenstandderforschung}. So oder so soll in diesem Kapitel näher darauf eingegangen werden. Die Wichtigsten Gründe weshalb chemische Speicher sehr geeignet wären.
 \begin{itemize}
 \item Speicherung grosser Wärmemengen, da eine hohe Energiedichte 
 \item Grosses Spektrum von verfügbaren Temperaturen
-\item Specherung über lange Zeiträme ohne grosse Verluste
+\item Specherung über lange Zeiträume ohne nennenswerte Verluste
 \end{itemize}
 
 \subsubsection{Arbeitsprinzip}
-Bei der thermochemischen Speicherung werden chemische Reaktionen genützt um Wärme in einem Material zu speichern. Das Arbeitsprinzip dieser Speicher ist in Abbildung \ref{fig:ladenspeichernentladens} ersichtlich. Wenn dem Material Wärme zugeführt wird, wird es in zwei Komponenten zerlegt. Diese beiden Komponenten können für lange Zeit ohne Energieverlust gespeichert werden. Werden diese beiden wieder zusammengebracht, so findet die Umkehrreaktion statt und die Wärme wird wieder frei. 
+Bei der thermochemischen Speicherung werden chemische Reaktionen genutzt um Wärme in einem Material zu speichern. Das Arbeitsprinzip dieser Speicher ist in Abbildung \ref{fig:ladenspeichernentladens} ersichtlich. Wenn dem Material Wärme zugeführt wird, wird es in zwei Komponenten zerlegt. Diese beiden Komponenten können für lange Zeit ohne Energieverlust gespeichert werden. Werden diese beiden wieder zusammengebracht, so findet die Umkehrreaktion statt und die Wärme wird wieder frei. 
 
 \begin{figure}[h!]
 \begin{center}
@@ -523,11 +531,10 @@ Bei der thermochemischen Speicherung werden chemische Reaktionen genützt um Wä
 \end{center}
 \end{figure}
 
-Wird dies Technisch mittels Sorption umgesetzt, wo sich unterteilen lässt in Adsorbtion und Absorption. Diese können jeweils durch ein offenes oder geschlossenen Systemen umgesetzt werden.
-
+Diese Prozesse werden mittels Sorption realisiert, wo sich unterteilen lässt in Adsorbtion und Absorption. Diese können jeweils in einer offenes oder geschlossenen Bauart umgesetzt werden.
 
 \subsubsection{Stand der Technik der Adsorption}
-Die Abbildung \ref{fig:adsorption} zeigt der Prozess einer geschlossenen Adsorption.
+Die Abbildung \ref{fig:adsorption} zeigt der Prozess einer geschlossenen Adsorption. Technisch besteht so ein System hauptsächlich aus einem Porösen Festkörper und einem gasförmigen Adsorptiv. Dabei gilt der Speicher als geladen, wenn das Adsorptiv getrennt vom Adorbens ist. Durch das zusammenführen entsteht Reaktionswärme welche genutzt werden kann. Ist das System entladen, muss wiederum Wärme ins System gebracht werden, dass sich das gasförmige Adsorptiv wieder löst und es getrennt gelagert werden kann.
 
 \begin{figure}[h!]
 \begin{center}
@@ -537,15 +544,12 @@ Die Abbildung \ref{fig:adsorption} zeigt der Prozess einer geschlossenen Adsorpt
 \end{center}
 \end{figure}
 
-
-Technisch würde ein System aus einem Porösen Festkörper. 
-
 Beim Laden des Speichers, siehe Abbildung \ref{fig:geschlossenerladen} wird Wasser unter Wärmezufuhr aus Speichermaterial desorbiert. Die Kondensation des Wasserdampf auf der passiert hier auf der linken Seite. Dabei muss gewährleistet sein, dass $p_{v/k}$ < $p_R$ < 1bar ist. 
 
 \begin{figure}[h!]
 \begin{center}
 \includegraphics[scale=0.6]{images/geschlossenerladen.jpg}
-\caption{Laden}
+\caption{Laden eines Geschlossenen Adsorptionssystem \cite{zeosys}}
 \label{fig:geschlossenerladen}
 \end{center}
 \end{figure}
@@ -556,18 +560,18 @@ Bei der Entladung des Speichers wird das Wasser unter Vakuum verdampft. Es passi
 \begin{figure}[h!]
 \begin{center}
 \includegraphics[scale=0.6]{images/geschlossenerentladen.jpg}
-\caption{Offenes Adsorptionssystem mit festem Adsorbens}
+\caption{Entladen eines Geschlossenen Adsorptionssystem \cite{zeosys}}
 \label{fig:geschlossenerentladen}
 \end{center}
 \end{figure}
 
 
-Eine andere Möglichkeit ist die Adsorption mittels offenes System, welches in der Abbildung \ref{fig:offenessystemadsorption} dargestellt ist. Diese beinahtlen ein festen Adsorbentien (z.B. Zeolithen oder Silikagelen).  Bei der offenen Adsorptionssystem transportiert der Luftstrom die Wärme und den Wasserdampf in und aus einer Adsorbensschüttung. Somit werden die Lufttemperatur und gleichzeitig der Wasserdampfpartialdruck des Luftstroms durch den Sorptionsprozess beeinflusst. Die umgestzen Stoff- und Wärmemengen sind in der \ref{fig:offenessystemadsorption} angedeutet.
+Eine andere Möglichkeit ist die Adsorption mittels offenes System, welches in der Abbildung \ref{fig:offenessystemadsorption} dargestellt ist. Diese beinhaltet ein festen Adsorbentien (z.B. Zeolithen oder Silikagelen).  Bei der offenen Adsorptionssystem transportiert der Luftstrom die Wärme und den Wasserdampf in und aus einer Adsorbensschüttung. Somit werden die Lufttemperatur und gleichzeitig der Wasserdampfpartialdruck des Luftstroms durch den Sorptionsprozess beeinflusst. Die umgestzen Stoff- und Wärmemengen sind in der \ref{fig:offenessystemadsorption} angedeutet.
 
 
 \begin{figure}[h!]
 \begin{center}
-\includegraphics[scale=0.6]{images/offenessystemadsorption.jpg}
+\includegraphics[scale=1]{images/offenessystemadsorption.jpg}
 \caption{Offenes Absorptionssystem mit flüssigem Absorbens}
 \label{fig:offenessystemadsorption}
 \end{center}
@@ -582,14 +586,14 @@ Eine andere Möglichkeit ist die Adsorption mittels offenes System, welches in d
 
 \begin{figure}[h!]
 \begin{center}
-\includegraphics[scale=0.6]{images/offenessystemabsorption.jpg}
-\caption{Entladen}
+\includegraphics[scale=1]{images/offenessystemabsorption.jpg}
+\caption{offenen Absorptionssystem}
 \label{fig:offenessystemabsorption}
 \end{center}
 \end{figure}
 
 
-Zum Bereich mit der Absorption des geschlossenen System konnten keine Informationen gefunden werden. Dies wird jedoch in einer Wärmepumpe eingesetzt, ist aber kein Speicher.
+Zum Bereich mit der Absorption des geschlossenen System konnten keine Informationen gefunden werden. Dies wird jedoch in einer Wärmepumpe eingesetzt, ist aber kein wirklicher Speicher.
 
 
 \subsubsection{Entwicklung und Herausforderungen}
@@ -785,6 +789,11 @@ die Luftbefeuchtung mit speziellen Wasserpflanzen gewährleistet.
 	
 	\bibitem{ladenspeichernentladen} Erneuerbare Energie. 
 	Abgerufen von http://www.aee.at am 03.05.2014
+	
+	
+    \bibitem{zaebayern} ZAE BAYERN. Abgerufen von http://www.wuerzburg.ihk.de am 03.05.2014	% http://www.wuerzburg.ihk.de/fileadmin/user_upload/pdf/Innovation_Umwelt/Vortraege/Dr._Hauer-Thermische_Energiespeicher.pdf
+    
+    \bibitem{zeosys} ZeoSys Gmbh. Dr.Asnakech Lass-Seyoum. Kolloquium Effiziente Energienutzung. Stuttgard, 03. Juli 2013
 	
 \end{thebibliography}
 \end{document}
