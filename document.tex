@@ -49,20 +49,20 @@ werden die verschiedenen Technolgien definiert und voneinander abgegrenzt.
 Anschliessend werden Latent- und (thermo)chemische Wärmespeicher vertieft
 behandelt. Es werden der Stand der Technik betrachtet, Entwicklungen und
 Perspektiven beleuchtet aber auch Herausforderungen hervorgehoben. Anschliessend
-stellen die Autoren zu beiden Technologien ein Beipiel aus der
-Gebäudeenergietechnik vor und stellen damit den Bezug zur Praxis her.
+stellen die Autoren zu beiden Technologien ein Praxisbeispiel aus der
+Gebäudeenergietechnik vor.
 
-Generell kann nach dieser Arbeit gesagt werden, dass noch breiter
+Generell kann nach dieser Arbeit gesagt werden, dass noch breiter und vertiefter
 Forschungsbedarf in beiden Bereichen notwendig ist. Latentwärmespeicher sind
 aber teilweise bereits im Anwendungsstadium und werden in aktuellen Projekten
 eingesetzt. Bei beiden Technologien besteht noch Entwicklungspotential bei den
 verwendeten Materialien.
 Bei Latentwärmespeichern sind insbesondere die über konvektive Prozesse
-nutzbaren PCM Slurries von Interesse. Diese sind derzeit noch in einem frühen
-Entwicklungstadium.
+nutzbaren PCM Slurries von Interesse.
+Das Konzept der (thermo)chemische Wärmeenergiespeicherung mittels Adsorptionspeicher mit kombinierter Wärmepumpe scheint geeignet zu sein in der Gebäudetechnik.
 
 \newpage
-\section{Allgemeiner Vergleich von chemischen, latenten und sensiblen
+\section{Überblick der chemischen, latenten und sensiblen
 Wärmespeichern}
 Wärmespeicher lassen sich generell in zwei verschiedene Hauptgruppen einteilen.
 Einerseites existieren chemische Energiespeicher, andererseits
@@ -119,17 +119,16 @@ Reaktion nach links erfolgt. Die Beladung erfolgt nach umgekehrtem Prinzip.
 Latentwärmespeicher nutzen den Phasenübergang eines Stoffs zur Speicherung von
 Wärme. Wie bei den chemischen Speichern beschränken sich die Einsatzgebiete auf
 die Phasenübergangseigenschaften des Mediums. Beispielsweise erfolgt der
-Phasenübergang fest-flüssig von Wasser bei 273.15K. Die freiwerdende bzw.
+Phasenübergang fest-flüssig von Wasser bei 273.15 K. Die freiwerdende bzw.
 benötigte Energie für einen fest-flüssig Phasenübergang bei Wasser beträgt 333.5 kJ/kg.
 Aufgrund der grossen Dichteänderund der meisten flüssig-gasförmig
 Phasenübergänge werden diese selten zu Speicherzwecken genutzt, obwohl die
-Kondensations bzw. Verdampfungswärme der Stoffe meistens grösser ist. Die
-Materialien werden mit PCM für \flqq Phase Changing Materials\frqq{} abgekürzt.
+Kondensations bzw. Verdampfungswärme der Stoffe meistens grösser ist. Daher kommt auch die Materialbezeichnung \flqq Phase Changing Materials\frqq{}, beziehungsweise abgekürzt PCM.
 
 Die speicherbare Energie ergibt sich nach
 
 \begin{align}
-\Delta E = mh_{pc}
+\Delta E = m \cdot h_{pc}
 \end{align}
 als Produkt von Masse und Schmelz bzw. Kristallisationsenthalpie. Die
 verwendeten Materialien lassen sich zweidimensional anhand der
@@ -159,12 +158,12 @@ Warmwasserwärmer. Die Verweildauer des Wassers beträgt hier Stunden bis maxima
 einige Tage. Langzeitspeicher werden zur saisonalen Wärmespeicherung genutzt.
 Dies findet beim \flqq System Jenni\frqq{} Einsatz. Die Speicher sind so
 dimensioniert, dass die Speicherkapazität nur ein- bis wenige Male im Jahr
-genutzt wird. Dafür sind jedoch grosse Speichermassen von bis zu 100m$^3$ Wasser
+genutzt wird. Dafür sind jedoch grosse Speichermassen von bis zu $\text{100 m}^3$ Wasser
 nötig.
 
 Die gespeicherte Energiemenge lässt sich nach
 \begin{align}
-\Delta E = mc\Delta T = \rho Vc \Delta T
+\Delta E = m \cdot c \cdot \Delta T = \rho \cdot V_c  \cdot \Delta T
 \end{align}
 definieren. Wasser besitzt mit 4.19 kJ/kg/K eine hohe spezifische
 Wärmekapazität und wird deshalb als kostengünstiges, effizientes und
@@ -193,7 +192,7 @@ sogenannten Schmelz- bzw. Erstarrungspunkt und einen Siede- bzw.
 Kondensationspunkt. An diesem Temperaturpunkt wechselt das Medium sine Phase von
 fest zu flüssig bzw. von flüssig zu gasförmig. Um diese Phasenänderung
 vorzunehmen benötigt das Medium viel Wärmeenergie bzw. gibt viel Wärmeenergie an
-die Umgebung ab. Das Beispiel in Abbildung \ref{fig:H2O} zeigt die Benötigte
+die Umgebung ab. Das Beispiel in Abbildung \ref{fig:H2O} zeigt die benötigte
 Wärmeenergie für die Temperaturerhöhung und den Phasenübergang von Wasser bei
 Normdruck auf.
 
@@ -229,7 +228,7 @@ werden. Mit der untenstehenden Formel lässt sich die speicherbare Energie
 einfach berechnen:
 
 \begin{align}
-\Delta Qv = m \cdot (\Delta U + p \cdot \Delta V) = m \cdot \Delta Hv
+\Delta Q_v = m \cdot (\Delta U + p \cdot \Delta V) = m \cdot \Delta H_v
 \label{eq:latent}
 \end{align}
 
@@ -237,9 +236,9 @@ einfach berechnen:
 \begin{center}
 \caption{Variablen der Gleichung \ref{eq:latent}}
 \begin{tabular}{|l|p{5cm}|l|}
-\hline $\Delta Qv$ & Schmelz- bzw. Verdampfungswärme & [J] \\
+\hline $\Delta Q_v$ & Schmelz- bzw. Verdampfungswärme & [J] \\
 \hline $m$ & Masse & [kg] bzw. [mol] \\
-\hline $\Delta Hv$ & Spezifische Schmelz- bzw. Verdampfungsentalphie & [J/kg]
+\hline $\Delta H_v$ & Spezifische Schmelz- bzw. Verdampfungsentalphie & [J/kg]
 bzw. [J/mol] \\
 \hline
 \end{tabular}
@@ -251,9 +250,7 @@ Enthalpie ist Mediumsabhängig.
 
 
 \subsubsection{Stand der Technik}
-Im Gegensatz zu sensiblen Wärmespeicher, werden Latentwärmespeicher weniger
-häufig eingesetzt. Wie Tabelle \ref{tab:Wesselak1} zeigt sind verschiedene
-Latentspeicher entwickelt aber noch nicht ausgereift.
+Im Gegensatz zu sensiblen Wärmespeicher, werden latent- und thermochemische Wärmeenergiespeicher weniger häufig eingesetzt. Wie Tabelle \ref{tab:Wesselak1} zeigt sind verschiedene Latentspeicher entwickelt aber noch nicht ausgereift.
 
 \begin{table}[h]
 \begin{center}
@@ -327,7 +324,7 @@ Eigenschaften und Schmelzpunkte beim selben Druck. Einige davon sind in Tabelle
 
 \begin{table}[h!]
 \begin{center}
-\caption{Vergleich von Speichersalzsystemen für den Temperaturbereich von 0-100
+\caption{Speichersalzsystemenvergleich für den Temperaturbereich von 0-100
 $^\circ$C \cite{Wesselak}}
 \includegraphics[scale=1]{images/speichersalze.pdf}
 \label{tab:salz}
@@ -423,7 +420,8 @@ die Viskosität von PCS schlechter als jene von Wasser und es entsteht dadurch
 ein erhöhter Energiebedarf für Pumpen. Abbildung \ref{fig:PCSDruck} zeigt den
 Druckverlust einer 30\% Emulsion im Vergleich zu Wasser auf. Vergleicht man dies
 jedoch wieder mit der erhöhten Enthalpie der PCS kann mit PCS bei gleicher
-Pumpenleistung deutlich mehr Wärmeenergie transportiert werden
+Pumpenleistung deutlich mehr Wärmeenergie transportiert werden.
+
 \begin{figure}[h!]
 \begin{center}
 \includegraphics[scale=0.4]{images/Henning2.pdf}
@@ -431,6 +429,7 @@ Pumpenleistung deutlich mehr Wärmeenergie transportiert werden
 \label{fig:PCSDruck}
 \end{center}
 \end{figure}
+
 Dies liegt an den thermodynamischen Eigenschaften, welche sich je nach
 Konzentration verändern. Tabelle \ref{tab:PCSThermo} zeigt diese Veränderung auf
 für PCS bis zu 20\%.
@@ -443,7 +442,7 @@ für PCS bis zu 20\%.
 \end{center}
 \end{table}
 
-Grafik \ref{fig:BINEVisko} zeigt auf einen Blick die Speicherkapazität und die
+Abbildung \ref{fig:BINEVisko} zeigt auf einen Blick die Speicherkapazität und die
 Viskosität im Vergleich zu Wasser. Somit stellt sie den oben diskutierten
 Sachverhalt nochmals zusammenfassend dar.
 \begin{figure}[h!]
@@ -463,7 +462,7 @@ Freecoolingbetrieb das Gebäude zu kühlen. Es ist somit erwünscht, dass das
 Medium eine möglichst hohe Enthalpiedifferenz bei möglichst geringer
 Temperaturerhöhung erreicht. In Abbildung \ref{fig:GschwanderEnt} ist ein solcher
 Vergleich vorhanden. Der Phasenwechsel findet bei diesem Beispiel zwischen 23
-und 27°C statt. Die Temperaturdifferenz ganz zu eliminieren ist zurzeit noch
+und 27 °C statt. Die Temperaturdifferenz ganz zu eliminieren ist zurzeit noch
 nicht möglich.
 \begin{figure}[h!]
 \begin{center}
@@ -525,8 +524,7 @@ diesem Fall schneller von statten geht als das gezwungene System. Die Abbildung
 und des eingeschränkten Experiments. Die natürliche Konvektion, also die durch
 den Dichteunterschied und Gravitationskraft getriebener Austausch und die
 Wärmeleitfähigkeit, spielen dabei eine wesentliche Rolle. Beim
-eingeschränkten Experiment mit dem Rohr in der Mitte beginnt es gleichmässig von aussen nach
-innen zu schmelzen, dies funktioniert zu Beginn auch optimal, da der
+eingeschränkten Experiment mit dem Rohr in der Mitte beginnt es gleichmässig von aussen nach innen zu schmelzen, dies funktioniert zu Beginn auch optimal, da der
 Phasenwechsel direkt an der Kugelaussenwand vonstatten geht. Schon nach kurzer
 Zeit grenzt keine Festphase mehr an die Aussenwand und es stellt sich eine
 natürliche Konvektion ein, welche zirkulär um den Festkörper wirkt und so eine
@@ -601,10 +599,10 @@ chemische Speicher sehr geeignet wären sind die folgenden:
 Bei der thermochemischen Speicherung werden chemische Reaktionen genutzt um
 Wärme in einem Material zu speichern. Das Arbeitsprinzip dieser Speicher ist in
 Abbildung \ref{fig:ladenspeichernentladens} ersichtlich. Wenn dem Material Wärme
-zugeführt wird, wird es in zwei Komponenten zerlegt. Diese beiden Komponenten
+zugeführt wird, wird es in zwei Komponenten zerlegt (Endotherme Reaktion). Diese beiden Komponenten
 können für lange Zeit ohne Energieverlust gespeichert werden. Werden diese
 beiden wieder zusammengebracht, so findet die Umkehrreaktion statt und die Wärme
-wird wieder frei.
+wird wieder frei (Exotherme Reaktion).
 
 \begin{figure}[h!]
 \begin{center}
@@ -630,7 +628,7 @@ wieder löst und es getrennt gelagert werden kann.
 \begin{figure}[h!]
 \begin{center}
 \includegraphics[scale=0.6]{images/prozess.jpg}
-\caption{Prozess von Adsorption}
+\caption{Prozess von Adsorption \cite{zeosys}}
 \label{fig:adsorption}
 \end{center}
 \end{figure}
@@ -676,7 +674,7 @@ Abbildung \ref{fig:offenessystemadsorption} angedeutet.
 \begin{figure}[h!]
 \begin{center}
 \includegraphics[scale=1]{images/offenessystemadsorption.jpg}
-\caption{Offenes Absorptionssystem mit flüssigem Absorbens}
+\caption{Offenes Absorptionssystem mit flüssigem Absorbens \cite{Ferdinandschmidt}}
 \label{fig:offenessystemadsorption}
 \end{center}
 \end{figure}
@@ -705,7 +703,7 @@ Heizanwendungen weniger oder nicht geeignet.
 \begin{figure}[h!]
 \begin{center}
 \includegraphics[scale=1]{images/offenessystemabsorption.jpg}
-\caption{offenen Absorptionssystem}
+\caption{offenen Absorptionssystem \cite{Ferdinandschmidt}}
 \label{fig:offenessystemabsorption}
 \end{center}
 \end{figure}
@@ -891,9 +889,7 @@ Sicht sinnvoll machen sollen.
 \listoffigures
 \newpage
 \begin{thebibliography}{99}
-	\bibitem{BINE1}BINE Energieforschung für die Praxis. Abgerufen am 11.04.2014
-	
-	von http://www.bine.info/typo3temp/pics/b193b0972c.gif verändert durch D. Strebel
+	\bibitem{BINE1}BINE Energieforschung für die Praxis. Abgerufen am 11.04.2014 von http://www.bine.info/typo3temp/pics/b193b0972c.gif verändert durch D. Strebel
 	\bibitem{Wesselak}Wesselak et. al. Regenerative Energiesysteme. 2. Auflage.
 	Springer Vieweg Verlag Berlin. 2013
 	
@@ -916,6 +912,9 @@ Sicht sinnvoll machen sollen.
 	\bibitem{Henning} Henning H.M. Phasenwechselmaterialien in Baumaterialien und
 	Leitungssystemen. Präsentation. Fraunhofer Institut für solare Energiesysteme,
 	Freiburg. 2007
+	
+	\bibitem{Ferdinandschmidt} Neue Materialen und Systemkonzepte für Adsorptionswärmespeicher - Ergebnisse des BMBF-Netzwerks.  Fraunhofer Institut für solare Energiesysteme,
+		Freiburg.
 	
 	\bibitem{Gschwander} Gschwander S. et al. Micro-encapsulated paraffinin
 	phase-change slurries. Fraunhofer Institut für solare Energiesysteme,
